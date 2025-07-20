@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bonita2021
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: Dockerfile
+    autoDeploy: false
+    ports:
+      - 8080
